@@ -11,7 +11,14 @@ For Turtle-WoW:
 2. Navigate to your Turtle-WoW installation directory.
 3. Replace the existing `DiscordOverlay.dll` with the downloaded `winerosetta.dll`.
 
-## Optional OpenGL Configuration
+1.12.1 / 3.3.5a:
+
+1. Download the `winerosetta.dll` and `winerosettaldr.exe` from the latest release.
+2. Navigate to your WoW installation directory.
+3. Copy `winerosetta.dll` and `winerosettaldr.exe` here
+4. Use `winerosettaldr.exe` to play.
+
+## Optional OpenGL Configuration (1.12.1)
 
 To get OpenGL working, you need to modify the `Config.WTF` file with the following settings:
 
