@@ -5,11 +5,25 @@ Winerosetta is a library specifically designed for Apple Silicon, WINE, and the 
 
 ## Installation
 
-For Turtle-WoW:
+For Turtle-WoW (no Vanilla Fixes):
 
 1. Download the `winerosetta.dll` from the latest release.
 2. Navigate to your Turtle-WoW installation directory.
 3. Replace the existing `DiscordOverlay.dll` with the downloaded `winerosetta.dll`.
+
+For [Vanilla Fixes](https://github.com/hannesmann/vanillafixes/) 1.4+:
+
+1. Download the `winerosetta.dll` from the latest release.
+2. Extract to your WoW installation directory
+3. Add `winerosetta.dll` to the dlls.txt file:
+```
+# Known mods for World of Warcraft 1.12
+nampower.dll
+SuperWoWhook.dll
+
+# Add your own DLLs below
+winerosetta.dll
+```
 
 1.12.1 / 2.4.3 / 3.3.5a:
 
